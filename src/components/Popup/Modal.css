@@ -1,0 +1,23 @@
+.buttonSubscribe{
+    padding: 10px 24px;
+    background: hsl(0, 0%, 8%);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width: 768px){
+    .buttonSubscribe {
+        font-size: 20px;
+      }
+ }
+ @media screen and (max-width: 768px){
+    .buttonSubscribe {
+        font-size: 12px;
+      }
+ }
+.buttonSubscribe:hover{
+    transition: all 0.2s ease-in-out;
+    background: #0078AC;
+}

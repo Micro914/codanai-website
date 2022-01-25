@@ -1,0 +1,32 @@
+.boton{
+border-radius: 50px;
+background: #0078AC;
+outline: none;
+border: none;
+cursor: pointer;
+display: flex;
+justify-content: left;
+align-items: left;
+transition: all 0.2s ease-in-out;
+white-space: nowrap;
+font-size: 15px;
+color: #010606;
+margin-left: inherit;
+padding: 14px 48px;
+}
+
+.boton:hover{
+transition: all 0.2s ease-in-out;
+background:  #fff
+}
+
+.boton:disabled{
+    background-color: gray;
+    color: #fff;
+    cursor: not-allowed;
+}
+.errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }

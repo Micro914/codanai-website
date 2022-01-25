@@ -1,0 +1,11 @@
+.Imagen{
+    cursor: pointer;
+    transform: scale(.9);
+    margin-left: -10px;
+    display: flex;
+    align-items: flex-start;
+    height:100%;
+    
+}
+
+/*style={{cursor: 'pointer', display: 'flex', transform: 'scale(.9)', marginLeft: '-10px'}}*/

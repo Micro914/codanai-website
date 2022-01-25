@@ -1,0 +1,33 @@
+.Map{
+    height: 450px;
+    width: 600px;
+
+}
+@media (max-width: 1000px){
+    .Map{
+        height: 400px;
+    width: 500px;
+    margin-bottom: 300px;
+    }
+}
+@media (max-width: 550px){
+    .Map{
+        height: 350px;
+    width: 400px;
+    margin-bottom: 300px;
+    
+    }
+}
+@media (max-width: 450px){
+    .Map{
+        height: 280px;
+    width: 300px;
+    margin-bottom: 150px;
+    
+    }
+}
+/* .Map2{
+    height: 350px;
+    width: 400px;
+
+} */
